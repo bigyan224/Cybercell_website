@@ -9,27 +9,45 @@ html,body{
 height:100%;
 width:100%;
 }
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 
 .page1{
-    background: url("./background.png");
+    background: url("./Screenshot\ \(75\).png");
     background-size: cover;
 }
 .page2{
-    background: url("./background.png");
+    background: url("./Screenshot\ \(75\).png");
     background-size: cover;
 }
 .page3{
-    background: url("./background.png");
+    background: url("./Screenshot\ \(75\).png");
     background-size: cover;
 }
 .page4{
-    background: url("./background.png");
+    background: url("./Screenshot\ \(75\).png");
     background-size: cover;
 }
 .page5{
-    background: url("./background.png");
+    background: url("./Screenshot\ \(75\).png");
     background-size: cover;
+}
+
+.event span{
+    text-align: center;
+}
+
+@media (max-width:600px) {
+
+    .events-container{
+        /* gap: 40px; */
+    }
+    .event{
+        width: 100vw;
+        height: 70vh;
+        margin-top: 20px;
+    }
 }
